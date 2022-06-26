@@ -1,4 +1,5 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import {  BrowserRouter, Route,Routes } from "react-router-dom";
+
 import Home from "../pages/Home";
 import Camiseta from "../pages/Camiseta";
 import Calca from "../pages/Calcas";
@@ -6,7 +7,7 @@ import Sapato from "../pages/Sapato";
 import Contato from "../pages/Contato";
 
 
-const Rout = () => {
+const Router = () => {
     return (
         <BrowserRouter>
                 <Routes>
@@ -20,4 +21,4 @@ const Rout = () => {
     );
 }
 
-export default Rout;
+export default Router;

@@ -1,4 +1,4 @@
-import Rout from '../router/Rout';
+import Router from '../router/Router';
 import { Link } from 'react-router-dom';
 import '../assets/css/header.css';
 
@@ -32,13 +32,10 @@ const Header = () => {
                         <Link to="/sapato">Sapato</Link>
                         <Link to="/contato">Contato</Link>
                     </ul>
-
+                    <Router/>
                 </nav>
-                    <Rout/>
 
             </header>
-
-
         </>
 
     )
