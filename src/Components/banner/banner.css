@@ -1,0 +1,11 @@
+.section--banner-home {
+    max-width: 954px;
+    width: 100%;
+    height: 281px;
+    background: #ACACAC 0% 0% no-repeat padding-box;
+}
+
+.descricao__banner {
+    width: 100%;
+    max-width: 954px;
+}

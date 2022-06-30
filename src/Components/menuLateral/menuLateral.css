@@ -1,0 +1,14 @@
+.nav--MenuLateral {
+    height: 507px;
+    width: 261px;
+    background: #E2DEDC;
+    
+}
+
+
+.nav--MenuLateral ul li a{
+    text-decoration: none;
+    color: #000;
+    font-size: 18px;
+    line-height: 28px;
+}

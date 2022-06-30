@@ -1,6 +1,7 @@
-import Router from '../router/Router';
-import { Link } from 'react-router-dom';
-import '../assets/css/header.css';
+import './header.css'
+import logo from '../../assets/img/Captura_de_tela_2022-06-29_160000-removebg-preview.png';
+import Menu from '../menu/Menu';
+import { Button } from '../../ComponentsStyles/Button';
 
 const Header = () => {
     return (
@@ -15,26 +16,15 @@ const Header = () => {
                 </section>
 
                 <section className='section--banner'>
-                    <figure>
-                        <img src="#" alt="logo Webjump" />
-                    </figure>
+                    <div>
+                        <img className='page__logo' src={logo} alt="logo Webjump" />
+                    </div>
                     <div>
                         <input type="text" />
-                        <button>Buscar</button>
+                        <Button>Buscar</Button>
                     </div>
                 </section>
-
-                <nav>
-                    <ul>
-                        <Link to="/">Home</Link>
-                        <Link to="/camiseta">Camiseta</Link>
-                        <Link to="/calca">Calça</Link>
-                        <Link to="/sapato">Sapato</Link>
-                        <Link to="/contato">Contato</Link>
-                    </ul>
-                    <Router/>
-                </nav>
-
+                <Menu />
             </header>
         </>
 

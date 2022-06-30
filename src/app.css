@@ -1,0 +1,12 @@
+    .section--menuBanner{
+        display: flex;
+        width: 100%;
+        max-width: 1240px;
+        margin-right: auto;
+        margin-left: auto;
+        gap: 25px;
+        margin-top: 24px;
+        margin-bottom: 24px;
+    }
+    
+    

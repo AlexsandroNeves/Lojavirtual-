@@ -1,9 +1,13 @@
-const Home = () =>{
+import Footer from "../Components/footer/Footer";
+import Header from "../Components/header/Header";
 
-    return(
-<>
-sadsadas
-</>
+
+const Home = () => {
+
+    return (
+        <>
+            <Footer/>
+        </>
     );
 
 }

@@ -1,0 +1,24 @@
+
+.nav--menu {
+    width: 100%;
+    background: #CB0D1F;
+    display: flex;
+    margin-top: 30px;
+}
+
+.nav--menu ul {
+    display: flex;
+    width: 100%;
+    max-width: 1240px;
+    margin-right: auto;
+    margin-left: auto;
+    list-style: none;
+    gap: 75px;
+}
+
+.nav--menu ul li a{
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bolder;
+}

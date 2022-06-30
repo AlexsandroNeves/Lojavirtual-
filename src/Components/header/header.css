@@ -10,16 +10,17 @@
     justify-content: flex-end;
     gap: 15px;
     color: #fff;
-
+    width: 1240px;
+    margin: 0 auto;
+    max-width: 100%;
 }
 
 .section__link__acesso {
-    margin-right: 20px;
     color: #fff;
 }
 
 .section--banner {
-    margin-top: 60px;
+    margin-top: 30px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -29,21 +30,15 @@
     margin-left: auto;
 }
 
-input{
-    height: 40px;
+
+.page__logo {
+    width: 200px;
+}
+
+input {
+    height: 45px;
     width: 415px;
     border: 1px solid #959595;
     outline: #959595;
-
-}
-
-button{
-    color: #fff;
-    text-transform: uppercase;
-    border:none;
-    background: #CB0D1F;
-    height: 45px;
-    width: 110px;
-    font-weight: bold;
 
 }
