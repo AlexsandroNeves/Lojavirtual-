@@ -6,6 +6,7 @@ import OrdenarProduto from "../Components/ordernarProduto/OrdenarProduto";
 import '../Components/vitrine/vitrine.css';
 import { Button, Titlepage } from '../ComponentsStyles/ComponentsStyles';
 
+
 const Calca = () => {
     const [vitrines, setvitrines] = useState([])
     // const [lista, setLista] = useState([])
@@ -27,7 +28,10 @@ const Calca = () => {
                                    
                                         <img className="img--borda" src={produto.image} alt="" />
                                         <p className="name--vitrine">{produto.name}</p>
+                                        <div>
+                                        <p>R$ {produto.specialPrice}</p> 
                                         <p className="price--vitrine" >R$ {produto.price}</p>
+                                        </div>
                                         <Button color={'#00A8A9'} width={'210px'} radius={'5px'}> Comprar </Button>
                                    
                                 </div>

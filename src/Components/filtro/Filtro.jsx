@@ -28,6 +28,21 @@ const Filtro = () => {
                     <VitrineCor cor={'#F26324'}/>
                     <VitrineCor cor={'#27A3A9'}/>
                 </div>
+
+                <h3>Tipo</h3>
+
+                <ul>
+                    <li>
+                        <Link to={''}>Camisetas</Link>
+                    </li>
+                    <li>
+                        <Link to={''}>Calças</Link>
+                    </li>
+
+                    <li>
+                        <Link to={''}>Sapatos</Link>
+                    </li>
+                </ul>
             </div>
         </div>
 
