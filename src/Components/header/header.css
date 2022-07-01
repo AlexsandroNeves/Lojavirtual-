@@ -42,3 +42,12 @@ input {
     outline: #959595;
 
 }
+
+
+@media (min-width: 1024px) and (max-width: 1240px){
+    .section--banner,.section__login{
+        width: 100%;
+        max-width:984px ;
+    }
+
+}

@@ -1,12 +1,17 @@
+import App from "../App";
 import Footer from "../Components/footer/Footer";
-import Header from "../Components/header/Header";
-
+import MenuLateral from "../Components/menuLateral/MenuLateral";
+import Banner from '../Components/banner/Banner'
 
 const Home = () => {
 
     return (
         <>
-            <Footer/>
+            <section className="section--menuBanner">
+                <MenuLateral />
+                <Banner />
+            </section>
+            <Footer />
         </>
     );
 

@@ -5,5 +5,14 @@
     background-color: #CB0D1F;
     margin:0 auto;
     height: 175px;
+    margin-top: 30px;
+
+}
+
+@media (min-width: 1024px) and (max-width: 1240px) {
+    .footer{
+        width: 100%;
+        max-width: 984px;
+    }
 
 }

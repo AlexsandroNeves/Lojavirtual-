@@ -8,7 +8,7 @@ const Banner = () => {
       </section>
 
       <div className='descricao__banner'>
-        <h2>teste 01</h2>
+        <h2>Bem vindo webjump!</h2>
 
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
           Aut saepe perspiciatis illo minima qui recusandae iure mollitia ex velit soluta,

@@ -9,3 +9,13 @@
     width: 100%;
     max-width: 954px;
 }
+
+.descricao__banner h2 {
+
+    text-transform: uppercase;
+
+}
+
+.descricao__banner p {
+    line-height: 28px;
+}
