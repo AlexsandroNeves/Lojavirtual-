@@ -27,11 +27,9 @@ const Calca = () => {
                                 <div className="container--vitrine" key={produto.id}>
                                    
                                         <img className="img--borda" src={produto.image} alt="" />
-                                        <p className="name--vitrine">{produto.name}</p>
-                                        <div>
-                                        <p>R$ {produto.specialPrice}</p> 
+                                        <p className="name--vitrine">{produto.name}</p>               
                                         <p className="price--vitrine" >R$ {produto.price}</p>
-                                        </div>
+               
                                         <Button color={'#00A8A9'} width={'210px'} radius={'5px'}> Comprar </Button>
                                    
                                 </div>
