@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { buscaSapato } from "../api/api";
 import Filtro from "../Components/filtro/Filtro";
 import Footer from '../Components/footer/Footer'
+import OrdenarProduto from "../Components/ordernarProduto/OrdenarProduto";
 import '../Components/vitrine/vitrine.css'
 import { Titlepage, Button } from "../ComponentsStyles/ComponentsStyles";
 
@@ -17,6 +18,7 @@ const Sapato = () => {
         <Filtro />
         <div className="container--vitrine-produto">
             <Titlepage> Sapato</Titlepage>
+            <OrdenarProduto/>
             <div className="div--vitrine">
                 {
                     vitrines.map((produto) => (

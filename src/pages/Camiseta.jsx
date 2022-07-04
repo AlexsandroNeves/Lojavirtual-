@@ -4,6 +4,7 @@ import { Button, Titlepage } from "../ComponentsStyles/ComponentsStyles";
 import '../Components/vitrine/vitrine.css';
 import Footer from "../Components/footer/Footer";
 import Filtro from "../Components/filtro/Filtro";
+import OrdenarProduto from "../Components/ordernarProduto/OrdenarProduto";
 
 
 const Camiseta = () => {
@@ -18,6 +19,7 @@ const Camiseta = () => {
                 <div className="container--vitrine-produto">
                     <div>
                     <Titlepage> Camisetas</Titlepage>
+                    <OrdenarProduto/>
                     </div>
                     
 

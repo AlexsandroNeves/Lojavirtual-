@@ -1,11 +1,11 @@
 
-import '../ordernarProduto/ordernarproduto.css'
+import '../ordernarProduto/ordernarProduto.css'
 
 const OrdenarProduto = () => {
     return (
         <>
-            <div className="container--ordenar" >
-                <span >Ordenar por</span>
+            <div className="container--ordenar teste" >
+                <span className='ordernar-option' >Ordenar por</span>
                 <select className="div--select">
                     <option value="selecione-opcao"> Selecione opção</option>
                     <option value="maior-preco" > Maior Preço</option>

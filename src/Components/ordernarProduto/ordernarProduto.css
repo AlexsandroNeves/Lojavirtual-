@@ -2,4 +2,18 @@
     display: flex;
     justify-content: end;
     gap: 10px;
+    margin-bottom: 40px;
+    align-items: center;
+}
+
+.ordernar-option{
+    text-transform: uppercase;
+    font-size: 11px;
+    color: #808185;
+}
+
+select.div--select {
+    height: 27px;
+    width: 216px;
+    outline: none;
 }
