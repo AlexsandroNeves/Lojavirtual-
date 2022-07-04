@@ -10,7 +10,7 @@ const Vitrine = () => {
             {
                 vitrines.map((produto ) => (
                     <div key={produto.id}>
-                        <img src={produto.image} alt="" />
+                        <img src={produto.image} alt="Imagem do produto" />
                         <p>{produto.name}</p>
                         <p>{produto.price}</p>
                     </div>

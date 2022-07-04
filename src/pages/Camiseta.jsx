@@ -26,7 +26,7 @@ const Camiseta = () => {
                             vitrines.map((produto) => (
                                 <div className="container--vitrine" key={produto.id}>
                                     <div>
-                                        <img className="img--borda" src={produto.image} alt="" />
+                                        <img className="img--borda" src={produto.image} alt="Imagem do produto" />
                                         <p className="name--vitrine">{produto.name}</p>
                                         <p className="price--vitrine" >R$ {produto.price}</p>
                                         <Button color={'#00A8A9'} width={'210px'} radius={'5px'}> Comprar </Button>
